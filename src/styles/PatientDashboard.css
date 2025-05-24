@@ -1,0 +1,47 @@
+/* PatientDashboardHeader.css */
+.header-container {
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  
+
+  
+  .navigation-bar {
+    padding: 15px 0;
+  }
+  
+  .navigation-bar .nav-link {
+    color: white !important;
+    margin-right: 15px;
+  }
+  
+  .navigation-bar .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .user-icon {
+    color: white;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  
+  .user-name {
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .welcome-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .welcome-section h1 {
+    color: #007bff; /* Primary blue color */
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .welcome-section p {
+    color: #6c757d;
+    font-size: 1.1rem;
+  }

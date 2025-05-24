@@ -1,0 +1,306 @@
+.dashboard-wrapper {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-container {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+/* Top Contact Bar Styles */
+.top-contact-bar {
+  background-color: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-logo {
+  height: 60px;
+}
+
+.logo-section .brand-text h1 {
+  color: #0275d8;
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.logo-section .brand-text p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.contact-details {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-icon {
+  color: #0275d8;
+  font-size: 1.5rem;
+}
+
+.contact-text p {
+  color: #666;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.contact-text strong {
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Doctor Navbar Styles */
+.doctor-navbar {
+  padding: 0.75rem 0;
+  background-color: #007bff !important;
+}
+
+.doctor-navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.8);
+  padding: 0.25rem 0.5rem;
+}
+
+.doctor-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.doctor-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500;
+}
+
+.doctor-navbar .nav-link.active {
+  color: white !important;
+  font-weight: 600;
+}
+
+.doctor-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  color: white;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.doctor-name-nav {
+  color: white;
+  font-weight: 500;
+}
+
+.logout-btn {
+  color: white !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  color: #007bff !important;
+  transition: all 0.3s ease;
+}
+
+/* Dashboard Content Styles */
+.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem;
+  color: #0275d8;
+  margin-bottom: 1rem;
+}
+
+.doctor-name {
+  color: #0275d8;
+  font-weight: 600;
+}
+
+.portal-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.appointments-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.section-title {
+  color: #0275d8;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Table Styles */
+.table-responsive {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.appointments-table {
+  margin-bottom: 0;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.appointments-table thead {
+  background-color: #007bff !important;
+}
+
+.appointments-table thead tr {
+  background-color: #007bff !important;
+}
+
+.appointments-table th {
+  color: white !important;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  background-color: #007bff !important;
+}
+
+.appointments-table td {
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+  color: #333;
+  font-size: 1rem;
+}
+
+.appointments-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.appointments-table tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.appointments-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.appointments-table tbody tr:nth-child(even):hover {
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.status {
+  text-transform: capitalize;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.no-appointments {
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-appointments p {
+  font-size: 1.25rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+  .table-responsive {
+    margin: 1rem 0;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .status {
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .doctor-navbar .navbar-collapse {
+    background-color: #007bff;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+  }
+
+  .doctor-navbar .nav-link {
+    padding: 0.75rem 0 !important;
+  }
+
+  .doctor-profile {
+    margin: 1rem 0;
+    justify-content: center;
+  }
+
+  .logout-btn {
+    text-align: center;
+    margin: 0.5rem 0;
+    display: inline-block;
+  }
+} 

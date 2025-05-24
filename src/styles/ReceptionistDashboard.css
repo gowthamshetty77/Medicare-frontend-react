@@ -1,0 +1,89 @@
+.welcome-title {
+    color: #0066cc;
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  
+  .welcome-subtitle {
+    color: #0066cc;
+    font-size: 1.5rem;
+    opacity: 0.9;
+  }
+  
+  .blue-table thead th {
+    background-color: #0066cc;
+    color: white;
+    border-bottom: 2px solid #0066cc;
+  }
+  
+  .user-icon {
+    transition: opacity 0.2s;
+  }
+  
+  .user-icon:hover {
+    opacity: 0.8;
+  }
+  
+  .reception-nav {
+    padding: 0.8rem 1rem;
+  }
+  
+  .dashboard-content {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0px 4px rgba(0,0,0,0.3);
+    margin: 1rem auto;
+  }
+  
+  .search-bar {
+    max-width: 600px;
+    margin: -5px auto;
+  }
+
+.d-none {
+  display: none;
+}
+
+.blue-table {
+  margin-top: 1.5rem;
+}
+
+.blue-table th {
+  background-color: #2a6496;
+  color: white;
+}
+
+.section-divider {
+  margin: 3rem 0;
+  border-top: 2px solid #dee2e6;
+}
+
+.patient-details-section {
+  margin-top: 2rem;
+}
+
+.role-title {
+  /* color: #2a6496; */
+  color: #0275d8;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+#doc-search-add {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#add-doc-btn {
+  color: white;
+  background-color: #0275d8 !important;
+  width: 170px;
+  height: 50px;
+  padding: 2px;
+  margin: -2px auto;
+}
+

@@ -1,0 +1,24 @@
+/* CardiologyDepartment.css */
+.doctor-departments-section {
+    padding: 30px 0;
+    background-color: #f9f9f9;
+    border-bottom: 1.5px solid #c0b9b9;
+  }
+  
+  .section-title {
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .doctor-card {
+    /* You can add specific styles for the doctor cards here */
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 992px) {
+    .cardiology-department-section .row > .col-lg-4 {
+      margin-bottom: 0;
+    }
+  }

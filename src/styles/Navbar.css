@@ -1,0 +1,155 @@
+.top-bar {
+  padding: 15px 0;
+  background-color: #fff;
+}
+
+.brand {
+  gap: 5px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.brand-text h1 {
+  color: #0066cc;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.brand-text p {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+
+.contact-info {
+  gap: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-item .icon {
+  font-size: 28px;
+  color: #0066cc;
+}
+
+.contact-item .text p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-item .text strong {
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #0066cc;
+  padding: 15px 0;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  padding: 8px 16px !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth-buttons .btn {
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.auth-buttons .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+  padding: 8px 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+@media (max-width: 991.98px) {
+  .brand {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .brand-text h1 {
+    font-size: 28px;
+  }
+
+  .contact-info {
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+  
+  .auth-buttons {
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .navbar-collapse {
+    background-color: #0066cc;
+    margin: 15px -12px -15px;
+    padding: 15px;
+  }
+
+  .navbar-nav {
+    margin-bottom: 15px !important;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 12px !important;
+    border-radius: 4px;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .auth-buttons .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .auth-buttons .btn:last-child {
+    margin-bottom: 0;
+  }
+} 

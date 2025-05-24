@@ -1,0 +1,140 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .status-modal {
+    background: white;
+    width: 95%;
+    max-width: 1200px;
+    border-radius: 8px;
+    position: relative;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-size: 1.8rem;
+    padding: 5px;
+    transition: color 0.2s ease;
+    z-index: 5;
+  }
+  
+  .close-icon:hover {
+    color: #333;
+  }
+  
+  .status-content h2 {
+    color: #2a6496;
+    margin: 0 0 25px 0;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .appointments-heading {
+    color: #6c757d;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+  }
+  
+  .appointments-table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  td {
+    font-size: 15px;
+    color: #495057;
+  }
+  
+  /* .status-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #e2f0ff;
+    color: #2a6496;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  } */
+  
+  .cancel-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+  }
+  
+  .cancel-button:hover {
+    background: #c82333;
+    transform: translateY(-1px);
+  }
+
+  .status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .status-badge.booked {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .status-badge.cancelled {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .cancel-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cancel-button:hover {
+    background-color: #cc0000;
+  }
