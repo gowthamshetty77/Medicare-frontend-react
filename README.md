@@ -42,8 +42,8 @@ Live Demo on Vercel
 Follow these steps to run the project locally:
 
 1. Clone the repository
-git clone https://github.com/your-username/medicare-health-care.git
-cd medicare-health-care
+- git clone https://github.com/gowthamshetty77/Medicare-frontend-react.git
+- cd medicare-health-care
 
 2. Install dependencies
 npm install
